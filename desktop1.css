@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F7EEF1;
+    overflow: hidden; 
+}
+
+/* Navbar styling */
+.navbar {
+    width: 100%;
+    height: 85px;
+    background-color: #3108c8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Space between logo and options */
+    padding: 0 50px; /* Adjust the padding for spacing */
+    position: relative;
+    z-index: 10;
+}
+
+/* Logo image styling */
+.navbar img {
+    height: 200px; /* Adjust logo size */
+    width: 200px;
+    margin-top: 32px;
+    margin-left: -40px;
+}
+
+/* Nav links styling */
+.nav-links ul {
+    display: flex;
+    list-style: none;
+    gap: 40px; /* Adjust the spacing between links */
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-family: 'Arial', sans-serif;
+    transition: color 0.1s ease;
+}
+
+.nav-links a:hover {
+    color: #FFF500; /* Change the hover color */
+    font-weight: bold;
+}
+/* Style for active page link */
+.nav-links a.active {
+    font-weight: bold; /* Make the active link bold */
+    color: #FFF500 /* You can also change the color of the active link if needed */
+}
+
+/* Navbar buttons */
+.navbar-buttons {
+    margin-left: 280px;
+    display: flex;
+    align-items: center;
+}
+
+.language-selector {
+    margin-right: 100px;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+.language-selector img {
+    width: 20px;  /* Set the width */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 1px;
+    margin-right: 15px; /* Add a small space between the icon and the text */
+}
+.login-btn, .signup-btn {
+    padding: 7px 14px; 
+    border: black;
+    color: white;
+    font-size: 12px;
+    border-radius: 12px; 
+    background: linear-gradient(#D290CE, #DA8693);
+}
+.signup-btn {
+    margin-left: 10px; /* Adjust this value to add space between the buttons */
+}
+
+
+
+/* Design section styling */
+.design {
+    display: flex;
+    justify-content: right; /* Center design horizontally */
+    margin-top: -20px;
+    position: relative;
+}
+
+.design img {
+    width: 360px;/* Responsive design */
+    height: 380px;
+}
+
+/* Truck image styling */
+.truck {
+    display: flex;
+    justify-content: right;
+    bottom: 0; /* Position the truck at the bottom of the design section */
+    right: 0; /* Position the truck at the right of the design section *//* Center the truck image horizontally */
+    position: absolute;
+}
+
+.truck img {
+    width: 350px; /* Ensure the image scales down to the container */
+    height: 350px;
+    transform: scaleX(-1); /* Flip the truck image horizontally */
+}
+
+.girl {
+    display: flex;
+    justify-content: left;
+    bottom: 0; /* Position the truck at the bottom of the design section */
+    position: absolute;
+}
+
+.gril img {
+    width: 400px; /* Ensure the image scales down to the container */
+    height: 400px;
+}
+.container{
+    margin-top: -250px;
+    margin-left: 250px;
+    font-family: "Paytone One", sans-serif; /* Apply the Paytone One font */
+    font-weight: 400; /* Ensure the weight is set to 400 */
+    font-style: normal; /* Normal style */
+    font-size: larger;
+    letter-spacing: 2px;
+    color: #341AB3;
+
+}
+.with-us{
+    color: #D588BB;
+    margin-left: 180px;
+
+}
+hr{
+    width: 43%;
+    margin-left: 250px;
+}
+p{
+    margin-left: 380px;
+}
+.line{
+    margin-left: -40px;
+}
+.button{
+    position: absolute;
+    padding: 9px 29px; 
+    top: 500px;
+    left: 35.5%;
+    background-color: #E25F98;
+    border: none;
+    color: white;
+    border-radius: 7px;
+    transition: background 0.1 ease; 
+
+}
+.button:hover {
+    background: linear-gradient(45deg, #E25F98, #ECB882); /* Gradient colors */
+}
